@@ -13,9 +13,9 @@ struct PointCloud
 
 void print_cloud(PointCloud* cloud)
 {
-    for (int i = 0; i < cloud; i++)
+    for (int i = 0; i < cloud->size; i++)
     {
-        std::cout << i + 1 << ": "; print_cloud(cloud->begin[i]); std::cout << std::endl;
+        std::cout << i + 1 << ": "; print_point(cloud->begin[i]); std::cout << std::endl;
     }
 }
 

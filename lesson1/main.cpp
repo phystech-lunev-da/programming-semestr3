@@ -22,14 +22,6 @@ int main()
     Point_3D center = center_of_mass(points, points + 4);
 
     std::cout << "center: "; print_point(center); std::cout << std::endl;
-
-
-
-
-
-    PointCloud* cloud;
-    create_cloud(cloud, 10);
-
     
 
     return 0;

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/0909.dir/main.cpp.o -o 0909 
